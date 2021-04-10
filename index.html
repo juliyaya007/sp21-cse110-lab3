@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Julia's Journal Entries">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Julia Xu">
+        <title>Julia's Journal</title>
+        <link rel="icon" href="favicon.ico">
+        <nav>
+            <a>Shortcut to entries:</a>
+            <a href = "#2daysago">April 7th</a> 
+            <a href = "#yesterday">April 8th</a> 
+            <a href = "#today">April 9th</a> 
+        </nav>
+    </head>
+    
+    <body>
+        <main>
+            <section>
+                <h1><em>Julia's Journal</em></h1>
+                <img src="https://cms-assets.tutsplus.com/uploads/users/107/posts/25612/image/36a-background-gradients-1600.png" alt="top image">
+                <p><strong>Important: <br>
+                </strong>Getting to know me by knowing what I like from the list below</p>
+                <details>
+                    <summary>About me</summary>
+                    <p>Hi! My name is Julia Xu, and I'm a junior majoring in CS at UCSD.</p>
+                </details>
+                <p>My <strong>favorites</strong>: </p>
+                <ul>
+                    <li>Milk Tea</li>
+                    <li>Shopping</li>
+                    <li>Anything related to art</li>
+                    <li>Working on CS projects</li>
+                    <li>Traveling</li>
+                    <li>Helping others</li>
+                  </ul>
+            </section>
+            <hr>
+            <article id = "today">
+                <h3><i>Today</i></h3>
+                <h2>April 9th</h2>
+                <h4>San Diego</h4>
+                <p>Things I did: </p>
+                <ol>
+                    <li>Watched lectures</li>
+                    <li>Got milk tea <em>again</em> (lol) ʕ•́ᴥ•̀ʔっ</li>
+                    <li>Wroked on Lab2 for <em>CSE101</em></li>
+                </ol>
+              </article>
+            <hr>
+            
+            <article id = "yesterday">
+                <h3><em>Yesterday</em></h3>
+                <h2>April 8th</h2>
+                <h4>San Diego</h4>
+                <p>Today I spent a lot of time listening to music.</p>
+                <p>Song Recommendation: <b>ROSÉ - Gone</b></p>
+                <audio controls>
+                    <source src="ROSÉ - Gone (Lyrics).mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+
+                <p>Below is the MV for <strong>ROSÉ - Gone</strong></p>
+                <div id="Content"><br>
+                    <video width="654"  controls="controls" autoplay="autoplay">
+                        <source src="Gone_MV.mp4" type="video/mp4">
+                    stuff
+                        </video>
+                </div>
+            </article>
+            <hr>
+
+            <article id = "2daysago">
+                <header>
+                    <h3><em>2 days ago</em></h3>
+                    <h2>April 7th</h2>
+                    <h4>San Diego</h4>
+
+                    <div>
+                        <p>Posted by <span>Julia</span> (•◡•) /</p>
+                    </div>
+                </header>
+                <p>Things I did: </p>
+                <ol>
+                    <li>Worked on my internship in the morning</li>
+                    <li>Got milk tea</li>
+                    <li>Studied <em>Flutter</em></li>
+                </ol>
+            </article>
+            <hr>
+            
+            <h2>New Entry: </h2>
+            <form action="/action_page.php">
+                <fieldset>
+                    <legend>new journal entry:</legend>
+                    <label for="start">Date:</label>
+                    <input type="date" id="start" name="start"><br>
+
+                    <p>Today I'm at:</p>
+                    <div>
+                    <input type="radio" id="huey" name="drone" value="huey"
+                            checked>
+                    <label for="huey">San Diego</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" id="dewey" name="drone" value="dewey">
+                    <label for="dewey">San Francisco</label>
+                    </div>
+                    <br>
+
+                    <label for="browser">Weather of the day:</label>
+                    <input list="browsers" name="browser" id="browser">
+                    <datalist id="browsers">
+                      <option value="sunny">
+                      <option value="cloudy">
+                      <option value="rain">
+                      <option value="windy">
+                      <option value="snow">
+                    </datalist>
+                    <br><br>
+
+                    <label for="cars">My mood today (scale 1-5):</label>
+                    <select id="cars">
+                    <option value="volvo">1</option>
+                    <option value="saab">2</option>
+                    <option value="opel">3</option>
+                    <option value="audi">4</option>
+                    <option value="5">5</option>
+                    </select>
+                    <br><br>
+
+                    <label>Content: </label>
+                    <br>
+
+                    <textarea id="w3review" name="w3review" rows="4" cols="50">
+                    </textarea>
+                    <br><br>
+                    <label for="note">Other Notes:</label>
+                    <input type="text" id="note" name="note" value=""><br><br>
+
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Completed my journal today, and I am ready to submit</label><br>
+
+                    <br>
+                    <input type="button" value="Submit">
+                </fieldset>
+            </form> 
+            <hr>
+            <footer>
+                <p>Author: <i>Julia Xu</i></p>
+                <p><a href="mailto:hege@example.com">jlxu@ucsd.com</a></p>
+              </footer>
+          </main>
+    </body>
+</html>
