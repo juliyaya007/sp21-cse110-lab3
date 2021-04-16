@@ -1,5 +1,10 @@
 /* This is the css page for index.html */
-.flex-container {
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-container {
   display: flex;
 
   flex-flow: row wrap;
@@ -8,6 +13,10 @@
   margin: 0;
   list-style: none;
 }
+
+a[href^="#"] {
+    background-color: gold;
+  }
 
 .flex-item {
   background: rgba(95, 33, 158, 0.945);
@@ -18,7 +27,6 @@
   line-height: 150px;
   color: white;
   font-weight: bold;
-  font-size: 3em;
   text-align: center;
 }
 
@@ -42,15 +50,36 @@
     color: grey;
 }
 
-li {
-    color: red;
+section.milktea{
+    font-weight: bold;
+}
+
+form ~ #content{
+    color: orange;
+}
+
+details p{
+    color: yellowgreen;
+}
+
+img + p {
+    font-weight: bold;
+  }
+
+h1 ~ p{
+    color: orange;
+}
+
+ul, li {
+    font-size: 2em;
     
 }
 .thetitle{
+    padding-top: 50px;
     font-size: 50px;
 }
 
-.aboutme{
+#aboutme{
     font-size: 20pt;
     text-align: left;
 }
