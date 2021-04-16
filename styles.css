@@ -1,0 +1,91 @@
+/* This is the css page for index.html */
+.flex-container {
+  display: flex;
+
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: rgba(95, 33, 158, 0.945);
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    grid-auto-rows: 20px;
+    grid-auto-columns: 40px;
+}
+
+.grid-container > div {
+    margin-top: 10px;
+    background: #c8f0ff;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.grid-item{
+    color: grey;
+}
+
+li {
+    color: red;
+    
+}
+.thetitle{
+    font-size: 50px;
+}
+
+.aboutme{
+    font-size: 20pt;
+    text-align: left;
+}
+
+.MV{
+    width: 15cm;
+}
+
+h3{
+    padding-top: .5em; 
+    margin: auto;
+}
+
+.note{
+    margin: 2px,2px,2px,2px;
+    text-decoration: underline;
+}
+
+.date{
+    padding-left: 2em;
+}
+
+.fixedimg{
+    max-width: 50px; 
+    max-height: 20px; 
+    position: fixed;
+}
+.aboutme:hover {
+    color: blue;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+}
